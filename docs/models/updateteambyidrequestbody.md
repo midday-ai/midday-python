@@ -1,0 +1,11 @@
+# UpdateTeamByIDRequestBody
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            | Example                                                                |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `name`                                                                 | *Optional[str]*                                                        | :heavy_minus_sign:                                                     | Name of the team or organization. Must be between 2 and 32 characters  | Acme Corporation                                                       |
+| `email`                                                                | *Optional[str]*                                                        | :heavy_minus_sign:                                                     | Primary contact email address for the team                             | team@acme.com                                                          |
+| `logo_url`                                                             | *Optional[str]*                                                        | :heavy_minus_sign:                                                     | URL to the team's logo image. Must be hosted on midday.ai domain       | https://cdn.midday.ai/logos/acme-corp.png                              |
+| `base_currency`                                                        | *Optional[str]*                                                        | :heavy_minus_sign:                                                     | Base currency for the team in ISO 4217 format (3-letter currency code) | USD                                                                    |
